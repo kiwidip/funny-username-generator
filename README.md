@@ -32,5 +32,7 @@ Feel free to use them.
     
 ## Todo
 
+Currently there are 67 x 200 x 200 = 2.68 mio different combinations.
+
 - provide a shell script that generates xxxx names to then randomly choose/or grep into...
 - update/improve the dictionaries / feel free to send a push request
