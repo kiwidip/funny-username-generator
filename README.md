@@ -30,9 +30,18 @@ Feel free to use them.
     AloneJoyousStar
     ...
     
-## Todo
+## I want more!!!
 
 Currently there are 67 x 200 x 200 = 2.68 mio different combinations.
 
-- provide a shell script that generates xxxx names to then randomly choose/or grep into...
-- update/improve the dictionaries / feel free to send a pull request
+Shell script added for easy name generation.
+
+To generate 20 names at once just use the following bash command:
+
+    for i in {1..20}; do ./generate_user_name.sh ; done
+
+## Todo
+
+- update/improve the dictionaries / some words do not fit so well / others could further enrich the experience
+
+Feel free to edit and send a pull request. :)
