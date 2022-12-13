@@ -6,8 +6,8 @@ Generate random usernames in the form of AdverbAdjectiveNoun.
 Based on the files of adverbs.txt, adjectives.txt and nouns.txt (all in American English) the following linux command line generates unique looking usernames:
 
     echo `shuf -n1 adverbs.txt    | sed 's/./\u&/'`\
-         `shuf -n1 adjectives.txt | sed 's/./\u&/'`\
-         `shuf -n1 nouns.txt      | sed 's/./\u&/'`
+    `shuf -n1 adjectives.txt | sed 's/./\u&/'`\
+    `shuf -n1 nouns.txt      | sed 's/./\u&/'`
 
 **shuf** gets a random element, sed upper-cases the first letter of each one.
 
